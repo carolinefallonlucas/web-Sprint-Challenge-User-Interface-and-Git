@@ -20,8 +20,10 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    font: inherit;
+    text-decoration: none;
+    vertical-align: baseline;
+    color:black;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -29,10 +31,37 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+
 }
-ol, ul {
-	list-style: none;
+
+
+img {
+	max-width: 100%;
+	height: auto;}
+
+
+
+header{
+    max-width: 80%;
+    margin:0 auto;
+    justify-content: center;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    
+}
+
+
+
+  ol, ul {
+	list-style:none ;
 }
 blockquote, q {
 	quotes: none;
@@ -54,6 +83,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-decoration:none;
 }
 
 h1, h2, h3, h4, h5 {
