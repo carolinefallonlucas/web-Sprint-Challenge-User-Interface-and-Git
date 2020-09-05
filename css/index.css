@@ -32,32 +32,44 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-
 }
-
-
-img {
-	max-width: 100%;
-	height: auto;}
-
 
 
 header{
-    max-width: 80%;
-    margin:0 auto;
-    justify-content: center;
+    width: 100%;
+}
+
+.logo{
+    width:157px;
+    height:40px;
 
 }
 
-ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-
+nav{
+    margin:5%;
+    width: 90%;
+}
     
-}
 
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    margin:0;
+    width: 90%;
+    font-size:100%
+} 
+
+
+.jumbo{
+    margin:4%;
+    width: 90%;
+
+
+}
 
 
   ol, ul {
@@ -83,7 +95,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    font-decoration:none;
+    text-decoration:none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -118,6 +130,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+
 }
 
 .middle-content h2 {
@@ -140,6 +153,48 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color:gold;
+}
+
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+
+}
+
+#box6{
+    background-color:forestgreen;
+
+}
+
+#box7{
+background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
